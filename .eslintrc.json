@@ -15,6 +15,9 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"]
+        "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
+        "linebreak-style": 0,
+        "import/extensions": [ "error", "ignorePackages" ],
+        "quotes": [2, "double", { "avoidEscape": true }]
     }
 }
